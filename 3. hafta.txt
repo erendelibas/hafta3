@@ -1,0 +1,75 @@
+def diziDegerSayisi(dizi):
+    sayac = 0
+
+    try:
+        while True:
+            x = dizi[sayac]
+            sayac = sayac + 1
+    except:
+        print(sayac)s
+
+dizi = ["ahmet", "mehmet", "süleyman", "fatma", "ayşe","hayriye"]
+
+diziDegerSayisi(dizi)"""
+
+"""dizi = ["ahmet", "mehmet", "süleyman", "fatma", "ayşe","hayriye"]
+
+with open("isimler.txt", "a ", encoding="utf-8") as f:
+    f.write("Zeynep\n")
+    for isim in dizi:
+        f.write(f"{isim} \n")"""
+
+
+"""with open("isimler.txt", "w", encoding="utf-8") as e:
+    for isim in dizi:
+        e.write(f"{isim} \n")"""
+
+
+"""b = open("isimler.txt", "r", encoding="utf-8")
+print(b.read())"""
+
+
+
+"""ogrenci = {
+    "ad": "Ahmet",
+    "yas": 20,
+    "bolum": "YBS",
+    "not": 85
+}
+
+print(f"öğrencinin adı : {ogrenci['ad']}")
+print(f"öğrencinin yaşı : {ogrenci['yas']}")
+print(f"öğrencinin bölümü : {ogrenci['bolum']}")
+print(f"öğrencinin notu : {ogrenci['not']}")"""
+
+
+
+from veriDict import *
+from veriDict2 import *
+
+
+
+"""print(len(sozluk))
+
+x = sozluk.keys()
+print(type(x))
+print(type(sozluk))"""
+
+"""for x in sozluk:
+    print(x)
+
+for x in sozluk.values():
+    print(x)"""
+
+t = []
+dizi = []
+for x in muhammed:
+    try:
+        t.append(x["date"])
+    except:
+        print("cevap")
+
+    for i in t:
+        dizi.append(i)
+
+print(dizi)
